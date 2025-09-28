@@ -29,7 +29,7 @@ If the images fail to load in your environment, ensure the assets exist in `publ
 
 ### Test accounts
 
-- **Peter Parker** — PIN: `1234` — Card: `visa` — Starting Balance: `$1,000.00`
+- **Peter Parker** — PIN: `1234` — Card: `plus` — Starting Balance: `$1,000.00`
 
 You can add more users by editing `src/utils/constants.ts`
 
