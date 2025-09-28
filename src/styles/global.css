@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight.css" layer(base);
+
+@theme inline {
+  /* Any custom colors or variables will go here */
+  --color-lavender: #a584b9;
+  --color-screen: #8db8d4;
+  --color-button: #c1c1c1;
+  --color-dark-grey: #b8b8b8;
+  --color-dark-light: #e7e7e0;
+  --color-blue: #126cae;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-lavender);
+  font-family: "Courier New", Courier, monospace;
+}
